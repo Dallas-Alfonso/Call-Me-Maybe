@@ -66,6 +66,8 @@ const ProductWrapper = styled.div`
     .card {
       border-color: transparent;
       transition: all 1s linear;
+      border: 0.04rem solid rgba(0,0,0,0.2);
+      box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.4)
     }
     .card-footer {
       background: transparent;
@@ -75,7 +77,7 @@ const ProductWrapper = styled.div`
     &:hover {
       .card {
         border: 0.04rem solid rgba(0,0,0,0.2);
-        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2)
+        box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.8)
       }
       .card-footer {
         background: rgba(247, 247, 247);
@@ -96,7 +98,7 @@ const ProductWrapper = styled.div`
       bottom: 0;
       right: 0;
       padding: 0.2 rem 0.4rem;
-      background: var(--lightBlue);
+      background: #4e71ba; /*var(--lightBlue)*/
       border: none;
       color:var(--mainWhite);
       font-size: 1.4rem;
@@ -108,7 +110,7 @@ const ProductWrapper = styled.div`
       transform: translate(0,0);
     }
     .cart-btn:hover{
-      color: var(--mainBlue);
+      color: #f79e3b;  var(--mainBlue)
       cursor: pointer;
     }
 `;
