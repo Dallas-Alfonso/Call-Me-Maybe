@@ -4,7 +4,7 @@ export const ButtonContainer = styled.button`
 text-transform:capitalize;
 font-size:1.1rem;
 background: solid;
-border:0.15rem solid var(--lightBlue);
+border:0.5rem solid var(--lightBlue);
 border-color: #3b5998;
 background-color:#3b5998; 
 

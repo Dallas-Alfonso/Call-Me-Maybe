@@ -150,7 +150,7 @@ class ProductProvider extends Component {
         this.setState(() =>{
             return {
                 cartSubTotal: subTotal,
-                cartTotal: tax,
+                cartTax: tax,
                 cartTotal: total
             };
         });

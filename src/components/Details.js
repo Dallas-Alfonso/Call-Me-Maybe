@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {ProductConsumer} from '../context';
 import {Link} from 'react-router-dom';
 import {ButtonContainer} from './Button';
+import styled from "styled-components";
+
 export default class Details extends Component {
     render() {
         return (
@@ -23,7 +25,11 @@ export default class Details extends Component {
                             <div className="col-10 mx-auto
                             text-center text-slanted text-blue
                             my-5">
+                                <TitleStyle>
+                                    <div className="titleBorder">
                                 <h1>{title}</h1>
+                                    </div>
+                                </TitleStyle>
                             </div>
                         </div>
                         {/* end title */}
@@ -55,8 +61,7 @@ export default class Details extends Component {
                                 {/* product info */}
                                 <div>
                                     <Link to="/">
-                                        <ButtonContainer> back to 
-                                            Products</ButtonContainer>
+                                        <ButtonContainer> Home </ButtonContainer>
                                     </Link>
                                     <ButtonContainer
                                     cart 
@@ -67,7 +72,7 @@ export default class Details extends Component {
 
                                     }}
                                     >
-                                        {inCart ? "inCart" : "add to cart"}
+                                        {inCart ? "in Cart" : "add to cart"}
                                     </ButtonContainer>
                                 </div>
                             </div>
@@ -79,3 +84,13 @@ export default class Details extends Component {
         );
     }
 }
+
+const TitleStyle = styled.div`
+.titleBorder {
+    border: 0.2rem solid rgba(0,0,0,0.2);
+    border-radius: 50px;
+    box-shadow: 5px 8px 20px #818181;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+`

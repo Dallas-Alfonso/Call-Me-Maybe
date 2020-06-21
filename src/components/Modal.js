@@ -27,7 +27,7 @@ export default class Modal extends Component {
                                             </h5>
                                             <Link to='/'>
                                                 <ButtonContainer onClick={() =>closeModal()}>
-                                                    store
+                                                    Home
                                                 </ButtonContainer>
                                             </Link>
                                             <Link to='/cart'>
@@ -58,6 +58,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 #modal{
-    background: var(--mainWhite)
+    background: #ebebeb
 }
 `;

@@ -22,7 +22,7 @@ export default class Navbar extends Component {
                         </Link>     
                     </li> 
                 </ul>
-                <Link to='/cart' className="ml-auto">
+                <Link to='/cart' className="align">
                     <ButtonContainer>
                         <span className="mr-2">
                             <i className="fas fa-cart-plus" />
@@ -42,4 +42,11 @@ background:	#3b5998;  {/*var(--mainBlue)*/}
     font-size:1.3rem;
     text-transform: capitalize;
 }
+
+.align{
+    margin:auto ;
+    position:relative;
+}
+
+
 `
