@@ -68,11 +68,13 @@ const ProductWrapper = styled.div`
       transition: all 1s linear;
       border: 0.04rem solid rgba(0,0,0,0.2);
       box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.4)
+      
     }
     .card-footer {
       background: transparent;
       border-top: transparent;
       transition: all 1s linear;
+      
     }
     &:hover {
       .card {
@@ -87,6 +89,7 @@ const ProductWrapper = styled.div`
       position: relative;
       overflow: hidden;
       background-color: rgb(243, 243, 243);
+      margin:0 auto;
       
     }
     .card-img-top {
