@@ -7,6 +7,7 @@ Call Me Maybe is an E-Commerce site for Brand New Phones.
 - Attention to design to ensure the site is aesthetically pleasing for would be shoppers
 - Working PayPay Button
 - Easy to Navigate
+- Responsive
 
 
 ## Tech/Framework used
