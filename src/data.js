@@ -42,7 +42,7 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "Samsung Galaxy Note 10",
+    title: "Samsung Galaxy 10",
     img: "img/4.png",
     price: 75,
     company: "SAMSUNG",
@@ -54,7 +54,7 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "Samsung - Gaslaxy Fold",
+    title: "Samsung - Galaxy Fold",
     img: "img/5..png",
     price: 88,
     company: "SAMSUNG",
@@ -90,7 +90,7 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Apple iPhone 11 Pro Max",
+    title: "Apple iPhone 11 Max",
     img: "img/ipp.png",
     price: 110,
     company: "APPLE",

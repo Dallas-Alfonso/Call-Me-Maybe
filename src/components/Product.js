@@ -89,7 +89,7 @@ const ProductWrapper = styled.div`
       position: relative;
       overflow: hidden;
       background-color: rgb(243, 243, 243);
-      margin:0 auto;
+      
       
     }
     .card-img-top {
