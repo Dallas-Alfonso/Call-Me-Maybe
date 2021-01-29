@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 # Call Me Maybe
 
 Call Me Maybe is an E-Commerce site for Brand New Phones. 
@@ -31,7 +11,6 @@ Call Me Maybe is an E-Commerce site for Brand New Phones.
 
 
 ## Tech/Framework used
->>>>>>> b2ae099daafe69c6c4dd9f4992dde792c6bb38cd
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
