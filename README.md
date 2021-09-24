@@ -7,7 +7,7 @@ Live App: https://call-me-maybe.netlify.app/
 ## Features
 
 - Live PayPay Button
-- Responsive
+- Responsive / Mobile Friendly
 
 ![Call Me Maybe Gif](./public/img/Call-Me-Maybe.gif)
 
