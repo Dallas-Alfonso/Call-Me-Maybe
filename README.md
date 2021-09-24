@@ -1,27 +1,31 @@
 # Call Me Maybe
 
-Call Me Maybe is an E-Commerce site for Brand New Phones. 
+Browse E-Commerce site for awsome Brand New Phones. 
+
+Live App: https://call-me-maybe.netlify.app/
 
 ## Features
 
-- Attention to design to ensure the site is aesthetically pleasing for would be shoppers
-- Working PayPay Button
-- Easy to Navigate
+- Live PayPay Button
 - Responsive
 
+![Call Me Maybe Gif](./public/img/Call-Me-Maybe.gif)
 
-## Tech/Framework used
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Set Up And Run Project
 
-## Installation
+1. Clone project locally
+2. In your CLI, run `npm install`
+3. On root file, use CLI to run `npm start`
+4. App running on `https://localhost:3000`
 
-In the project directory, you can run:
+## Technologies
 
-### `npm start`
+- React.JS
+- JavaScript
+- Html
+- CSS
+- Bootstrap
+- Netlify 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
